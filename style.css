@@ -1,0 +1,89 @@
+            h1{
+                color:mediumturquoise;
+                font-weight: 100;
+                font-style:italic;
+            }
+            h2{
+                color:chocolate;
+                font-style: italic;
+                text-align: center;
+                align-items: center;
+            }
+            h3{
+                color:deeppink;
+                font-style:unset;
+                text-align: center;
+                align-items: center;
+            }
+            p{
+                color:steelblue;
+                font-size: 1.8vmin;
+                text-align: center;
+                align-items: center;
+            }
+            a{
+                color:darkorange;
+                font-size:2vmin;
+            }
+
+            .header{
+                background-color:#6C10E6;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .grid{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            
+            .footer{
+                display: flex;
+                justify-content:center;
+            }
+
+            body{
+                background-color:#10F5E9;
+            }
+
+            .menu{
+                border: solid;
+                border-radius: 8px;
+            }
+
+            .header *{
+                border: solid;
+                border-radius: 12px;
+                margin: 24px;
+            }
+
+            .item{
+                position: relative;
+            }
+
+            .item h3{
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-45%, -50%);
+                font-size: 20px;
+                font-style: bold;
+                color:black;
+                opacity: 0;
+            }
+
+            .item:hover p{
+                opacity:1;
+            }
+
+            a:link{
+                color:darkorange;
+            }
+
+            a:visited{
+                color:goldenrod;
+            }
+
+
+
